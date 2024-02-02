@@ -1,0 +1,78 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: rgb(250, 220, 225);
+    font-family: 'Roboto', sans-serif;
+} 
+.nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(250, 220, 225);
+    padding: 22px;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    margin-inline: 20px;
+    color: black;
+}
+ul li a:hover{
+    color: rgb(254, 20, 59);
+    border-bottom: 2px solid rgb(244, 20, 57);
+}
+.info ul{
+    display: flex;
+    list-style: none;
+    
+}
+.info li{
+    padding: 0 10px 0 10px;
+}
+.title{
+    font-size: 23px;
+}
+.loginBtn button{
+    width: 80px;
+    height: 28px;
+    background-color: red;
+    color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.mainText{
+    display:flex ;
+    flex-direction: column;
+    margin-top: 111px;
+    flex-wrap: wrap;
+    width: 30;
+}
+.main i{
+    font-size: 500px;
+    color: rgb(250, 153, 169);
+}
+.mainText h1{
+    font-size: 54px;
+}
+.mainText p{
+    margin-top: 11px;
+}
+.mainText button{
+    width: 140px;
+    height: 40px;
+    background-color: rgb(254, 8, 49);
+    color: white;
+    font-size: 20px;
+    border: none;
+    margin-top: 22px;
+}
